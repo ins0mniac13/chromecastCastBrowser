@@ -1,0 +1,49 @@
+body {
+    margin:0;
+    overflow:hidden;
+}
+#addressForm input {
+    font-size: 25;
+}
+#addressForm input[type=text]{
+    width: 100%;
+}
+#addressForm input[type=button]{
+    float: left;
+}
+.stretch {
+    overflow:hidden;
+}
+
+#addressBar .trigger {
+    width: 100%;
+    height:20px;
+    background:#eee;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.wrapper {
+    position: relative;
+}
+
+#addressForm {
+    position: absolute;
+    top: 0;
+    background:#eee;
+    width: 100%;
+    left: 0;
+    display: none;
+}
+
+#contentFrame {
+    border:none;
+    padding:0;
+    margin:0;
+    display:block;
+    width: 100%;
+}
+#addressForm {
+    margin:0;
+    height:8%;
+}

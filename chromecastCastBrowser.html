@@ -1,0 +1,25 @@
+<html>
+
+    <head>
+    
+        <title>chromecastCastBrowser</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src='chromecastCastBrowser.js'></script>
+        <link rel='stylesheet' type='text/css' href='chromecastCastBrowser.css'>
+    </head>
+    
+    <body>
+        <div id='addressBar'>
+            <div class='wrapper'>
+                <div class='trigger'>Hover over for Address Entry</div>
+                    <form id="addressForm" action="" method="get" onSubmit="return changeFrame();">
+                        <input type="button" value="submit" onClick="changeFrame();">
+                        <div class="stretch">
+                            <input name="urlbox" type="text" >
+                        </div>
+                    </form>
+            </div>
+        </div>
+        <iframe id="contentFrame" src="blank.html"></iframe>
+    </body>
+</html>
