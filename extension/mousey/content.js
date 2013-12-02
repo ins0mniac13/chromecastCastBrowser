@@ -5,9 +5,9 @@ port.postMessage({getEnabled: '1'})
 
 // on response take appropriate enable/disable action
 port.onMessage.addListener(function(msg) {
-        console.log('content onMessage');
+        //console.log('content onMessage');
         sessionStorage.setItem('enabled', msg.enabled);
-        console.log(msg.enabled);
+        //console.log(msg.enabled);
         addRemoveMousey();
         //port.postMessage({answer: "Madame"});
         });
